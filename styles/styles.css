@@ -66,9 +66,8 @@ main {
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-.video-card.fade-in {
-  opacity: 1;
-  transform: translateY(0);
+.video-card.scale-up {
+  transform: scale(1.05);
 }
 
 .video-card-content {
@@ -135,6 +134,7 @@ a {
     background-size: cover;
     background-position: center;
   }
+
   .video-card {
     width: 383.33px;
     height: 215px;
