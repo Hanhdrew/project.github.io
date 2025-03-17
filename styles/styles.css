@@ -61,6 +61,14 @@ main {
   width: 533.33px;
   background-color: var(--clr-background-transparent);
   box-shadow: var(--box-shadow);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.video-card.fade-in {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .video-card-content {
@@ -107,9 +115,9 @@ a {
 
   body {
     background-image: url(../Images2/london-3833039_640.jpg);
-    background-repeat: inherit;
-    background-size: inherit;
-    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
   .video-card {
     height: 150px;
@@ -123,9 +131,9 @@ a {
   }
   body {
     background-image: url(../Images2/london-3833039_640.jpg);
-    background-repeat: inherit;
-    background-size: inherit;
-    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
   .video-card {
     width: 383.33px;
@@ -139,9 +147,9 @@ a {
   }
   body {
     background-image: url(../Images2/london-3833039_1280.jpg);
-    background-repeat: inherit;
-    background-size: inherit;
-    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
   .video-card {
     width: 433.33px;
@@ -155,9 +163,9 @@ a {
   }
   body {
     background-image: url(../Images2/london-3833039_1280.jpg);
-    background-repeat: inherit;
-    background-size: inherit;
-    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
   .video-card {
     width: 483.33px;
