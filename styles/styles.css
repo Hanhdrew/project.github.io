@@ -66,10 +66,6 @@ main {
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-.video-card.scale-up {
-  transform: scale(1.05);
-}
-
 .video-card-content {
   border-left: 2px solid var(--clr-text);
   display: flex;
