@@ -80,6 +80,7 @@ main {
   background-color: var(--clr-background-transparent);
   box-shadow: var(--box-shadow);
   transition: transform 0.2s;
+  pointer-events: auto;
 }
 
 .video-card-content::before {
@@ -92,7 +93,8 @@ main {
 }
 
 .video-card-content:hover,
-.video-card-content:active {
+.video-card-content:active,
+.video-card-content.touch-active {
   transform: scale(1.05);
   color: var(--clr-highlight);
   border: 3px solid var(--clr-highlight);

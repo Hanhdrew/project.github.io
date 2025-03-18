@@ -1,5 +1,7 @@
+// Select all elements with the class '.video-card'
 const videoCards = document.querySelectorAll('.video-card');
 
+// Intersection Observer for scroll animations
 const observerOptions = {
   root: null,
   rootMargin: '0px',
@@ -22,4 +24,19 @@ const observer = new IntersectionObserver(observerCallback, observerOptions);
 
 videoCards.forEach((card) => {
   observer.observe(card);
+});
+
+// Select all elements with the class '.video-card-content'
+const videoCardContents = document.querySelectorAll('.video-card-content');
+
+// Add touch event listeners for mobile hover effect
+videoCardContents.forEach(card => {
+  card.addEventListener('touchstart', (event) => {
+    event.preventDefault();
+    card.classList.add('touch-active');
+  });
+
+  card.addEventListener('touchend', () => {
+    card.classList.remove('touch-active');
+  });
 });
