@@ -80,7 +80,6 @@ main {
   background-color: var(--clr-background-transparent);
   box-shadow: var(--box-shadow);
   transition: transform 0.2s;
-  pointer-events: auto;
 }
 
 .video-card-content::before {
