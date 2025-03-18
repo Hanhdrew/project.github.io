@@ -103,32 +103,9 @@ a {
   text-decoration: none;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   html {
     font-size: 90%;
-  }
-
-  body {
-    background-image: url(../Images2/london-3833039_640.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  .video-card {
-    width: 320px;
-    height: 180px;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-  html {
-    font-size: 95%;
-  }
-  body {
-    background-image: url(../Images2/london-3833039_640.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
   }
 
   .video-card {
@@ -141,12 +118,6 @@ a {
   html {
     font-size: 95%;
   }
-  body {
-    background-image: url(../Images2/london-3833039_1280.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
   .video-card {
     width: 433.33px;
     height: 243.75px;
@@ -156,12 +127,6 @@ a {
 @media (min-width: 992px) and (max-width: 1199.98px) {
   html {
     font-size: 100%;
-  }
-  body {
-    background-image: url(../Images2/london-3833039_1280.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
   }
   .video-card {
     width: 483.33px;
