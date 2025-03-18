@@ -8,7 +8,7 @@
   --clr-background-opaque: rgba(25, 27, 29, 1);
 
   /* shadows */
-  --box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+  --box-shadow: 0 8px 12px rgba(0, 0, 0, 0.7);
   --text-shadow: 0 0 3px rgb(0, 0, 0);
 }
 
@@ -67,7 +67,8 @@ main {
 }
 
 .video-card-content {
-  border-left: 2px solid var(--clr-text);
+  border-right: 2px solid var(--clr-text);
+  border-bottom: 2px solid var(--clr-text);
   display: flex;
   justify-content: center;
   align-items: center;
